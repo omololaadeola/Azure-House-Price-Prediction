@@ -54,3 +54,5 @@ def run(Inputs, GlobalParameters=1.0):
     data = Inputs['data']
     result = model.predict(data)
     return {'Results':result.tolist()}
+
+#
